@@ -1,0 +1,23 @@
+# 股票详情界面
+1.大事件接口
+https://xueqiu.com/calendar/cal/events.json?symbol=SH600516&end_date=INF&page=1&count=3
+2.获取行业名及同行业股票
+https://xueqiu.com/stock/industry/stockList.json?code=SH600516&type=1&size=8
+3.分时图表数据
+https://xueqiu.com/stock/forchart/stocklist.json?symbol=SH600516&period=1d&one_min=1
+4.日k图表数据（含MACD）
+https://xueqiu.com/stock/forchartk/stocklist.json?symbol=SH600516&period=1day&type=before&begin=1483544405112&end=1515080405112
+5.股票基本详情数据
+https://xueqiu.com/v4/stock/quote.json?code=SH600516
+6.股权变动情况
+https://xueqiu.com/stock/f10/shareschg.json?symbol=SH600516&page=1&size=4&_=1515081978384
+7.财务报表
+https://xueqiu.com/stock/f10/finmainindex.json?symbol=SH600114&page=1&size=4&_=1515315321603
+
+
+cookie1:
+s=g11ammqyz3; device_id=e3b74e55d33c1ec4a3b882cdb895a8d7; bid=e0729fdc45c9a33643267564c9629637_j9ijqk4q; webp=0; __utmz=1.1507822685.1.1.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; isPast=true; isPast.sig=Q1zWad3glPfOy3Ye-506BMax-a0; aliyungf_tc=AQAAALc4SnIy/wIAiVJf3rz4jysha306; xq_a_token=93ef7d84fd99d7b5f81ea4e1442c7252dff29d20; xq_a_token.sig=2_cWCFNwc-q7CurYUzOoewHw_DM; xq_r_token=18ddc4996d6018b400ebaaaa74f144296c288826; xq_r_token.sig=7749cnGDm8cToOaVZtCC3FKmJys; u=961515422494961; Hm_lvt_1db88642e346389874251b5a1eded6e3=1515079344,1515158300,1515313491,1515422495; __utma=1.1942666724.1507822685.1515337728.1515422502.17; __utmc=1; __utmt=1; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1515423728; __utmb=1.7.10.1515422502
+cookie2:
+s=g11ammqyz3; device_id=e3b74e55d33c1ec4a3b882cdb895a8d7; bid=e0729fdc45c9a33643267564c9629637_j9ijqk4q; webp=0; __utmz=1.1507822685.1.1.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; isPast=true; isPast.sig=Q1zWad3glPfOy3Ye-506BMax-a0; aliyungf_tc=AQAAALc4SnIy/wIAiVJf3rz4jysha306; xq_a_token=93ef7d84fd99d7b5f81ea4e1442c7252dff29d20; xq_a_token.sig=2_cWCFNwc-q7CurYUzOoewHw_DM; xq_r_token=18ddc4996d6018b400ebaaaa74f144296c288826; xq_r_token.sig=7749cnGDm8cToOaVZtCC3FKmJys; u=961515422494961; Hm_lvt_1db88642e346389874251b5a1eded6e3=1515079344,1515158300,1515313491,1515422495; __utma=1.1942666724.1507822685.1515337728.1515422502.17; __utmc=1; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1515423728; __utmb=1.7.10.1515422502
+cookie3:
+s=g11ammqyz3; device_id=e3b74e55d33c1ec4a3b882cdb895a8d7; bid=e0729fdc45c9a33643267564c9629637_j9ijqk4q; webp=0; __utmz=1.1507822685.1.1.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; isPast=true; isPast.sig=Q1zWad3glPfOy3Ye-506BMax-a0; aliyungf_tc=AQAAABX3N1uMDgUAFL1NMSFu7A479b4Z; xq_a_token=93ef7d84fd99d7b5f81ea4e1442c7252dff29d20; xq_a_token.sig=2_cWCFNwc-q7CurYUzOoewHw_DM; xq_r_token=18ddc4996d6018b400ebaaaa74f144296c288826; xq_r_token.sig=7749cnGDm8cToOaVZtCC3FKmJys; u=671515597280426; Hm_lvt_1db88642e346389874251b5a1eded6e3=1515158300,1515313491,1515422495,1515597281; __utma=1.1942666724.1507822685.1515422502.1515597286.18; __utmc=1; __utmt=1; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1515597310; __utmb=1.2.10.1515597286
