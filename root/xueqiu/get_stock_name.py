@@ -106,7 +106,6 @@ def get_stock_detail_by_name(result):
     print(request_get)
 
 
-
 def get_stock_detail():
     # 打开数据库连接
     db = pymysql.connect(host="localhost", user="root", passwd="admin123", db="xueq_data", charset='utf8')
