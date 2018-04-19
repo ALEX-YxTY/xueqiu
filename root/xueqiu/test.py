@@ -74,8 +74,8 @@ def change_redball_time():
     # 使用 cursor() 方法创建一个游标对象 cursor
     cursor = db.cursor()
     sql = ''
-    time_start = datetime.datetime.strptime("2018-04-18 09:00:00", '%Y-%m-%d %H:%M:%S')
-    time_end = datetime.datetime.strptime("2018-04-18 22:00:00", '%Y-%m-%d %H:%M:%S')
+    time_start = datetime.datetime.strptime("2018-04-26 09:00:00", '%Y-%m-%d %H:%M:%S')
+    time_end = datetime.datetime.strptime("2018-04-26 22:00:00", '%Y-%m-%d %H:%M:%S')
 
     for i in range(100):
         index = 848 + i
